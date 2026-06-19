@@ -2,6 +2,7 @@ package dsa.mathematics;
 
 public class GCD {
 
+    // Brute Force Approach
     static int gcdBruteForceApproach(int a,int b){
         int min=0;
         if(a<b){
@@ -18,6 +19,7 @@ public class GCD {
         return 1;
     }
 
+    // Optimized Approach
     static int gcd(int a,int b){
         while(a!=0 && b!=0){
             if(a>b){
