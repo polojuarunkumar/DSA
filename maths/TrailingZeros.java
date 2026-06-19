@@ -1,4 +1,4 @@
-class Main{
+class TrailingZeros{
   //    n!=n/5+n/25+n/125+n/625+ ..........infinity
 //    Example: 200! =
 //    200/5=40
