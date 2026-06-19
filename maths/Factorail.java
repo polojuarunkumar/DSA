@@ -1,5 +1,3 @@
-package dsa.mathematics;
-
 public class Factorail {
     public static long fact(int n){
         int a=1;
