@@ -1,5 +1,14 @@
 public class Main{
 
+  // Steps to write a primeNumber Program
+// If the number is 0 or 1 return false
+// If the number is 2 or 3 return true
+// If the number is divisible by 2 or 3 return false
+// we need to iterate the loop from i=5 to i<=Math.sqrt(n) and increment by 6
+// If the number is divisible by i and divisible by i+2 return false
+// else return true
+
+  
   static boolean isPrime(int n){
     if(n==1 || n==0){
       return false;
