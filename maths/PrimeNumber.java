@@ -1,4 +1,4 @@
-public class Main{
+public class PrimeNumber{
 
   // Steps to write a primeNumber Program
 // If the number is 0 or 1 return false
