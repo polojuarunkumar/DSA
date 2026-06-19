@@ -1,5 +1,3 @@
-package dsa.mathematics;
-
 public class GCD {
 
     // Brute Force Approach
@@ -20,6 +18,13 @@ public class GCD {
     }
 
     // Optimized Approach
+
+// 1. Find the larger Number
+// 2. Run a loop where a!=0 and b!=0
+// 3. Replace the larger Number by modulo of the larger number with smaller number
+// 4. Repeat step 1 & 2 until both numbers become equal
+// 5. Return any number which is not zero either a or b
+    
     static int gcd(int a,int b){
         while(a!=0 && b!=0){
             if(a>b){
