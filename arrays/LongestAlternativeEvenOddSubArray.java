@@ -8,6 +8,9 @@ public class LongestAlternativeEvenOddSubArray {
                 count++;
                 maxCount=Math.max(count,maxCount);
             }
+            else{
+                count=1;
+            }
         }
         return maxCount;
     }
